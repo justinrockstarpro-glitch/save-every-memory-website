@@ -26,3 +26,7 @@ This is a responsive static website prototype for review. Open `index.html` in a
 6. Test the production build and connect the domain only after approval. Keep existing GoDaddy email DNS records intact during DNS migration.
 
 The existing GoDaddy website and domain are not changed by this prototype.
+
+
+## Media format gallery and reel guide
+The site includes generated illustrative product photos for VHS, VHS-C, Hi-8, MiniDV, 35mm slides and 35mm negatives, plus an approximate film reel sizing guide for Regular 8/Super 8 and 16mm. Replace the illustrative photos with your own real media photos when available. Reel footage and runtime are estimates; confirm actual footage when media is evaluated.
