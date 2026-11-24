@@ -3,24 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Document scanning, OCR, indexing, and searchable digital records for businesses, law firms, municipalities, and organizations in Newark, Ohio.">
+  <meta name="description" content="Document scanning, digitization, and searchable digital records for businesses and organizations in Newark, Ohio.">
   <title>Document Solutions | Save Every Memory</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    .document-hero{padding:72px 7%;background:#f2f6fa}
-    .document-hero h1{max-width:850px;margin:12px 0;font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.08}
-    .document-hero p{max-width:760px;line-height:1.8}
-    .document-content{padding:64px 7%}
-    .document-columns{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;margin-top:28px}
-    .document-panel{padding:28px;border:1px solid #dce5ed;border-radius:16px;background:#fff}
-    .document-panel h2,.document-panel h3{margin-top:0}
-    .document-panel p,.document-panel li{line-height:1.75}
-    .document-panel ul{padding-left:22px}
-    .document-audiences{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}
-    .document-audiences span{padding:12px;border-radius:9px;background:#f1f5f8;font-weight:600}
-    .document-contact{padding:48px 7%;background:#f2f6fa}
-    .document-contact p{line-height:1.8}
-    @media(max-width:760px){.document-columns{grid-template-columns:1fr}.document-hero,.document-content,.document-contact{padding:42px 6%}}
+    .document-page{max-width:1100px;margin:0 auto;padding:60px 24px}
+    .document-page h1{font-size:clamp(2.3rem,5vw,4rem);line-height:1.1}
+    .document-page p,.document-page li{line-height:1.8}
+    .document-columns{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;margin:32px 0}
+    .document-card{padding:28px;border:1px solid #dce5ed;border-radius:16px;background:#fff}
+    .document-card h2{margin-top:0}
+    .document-card ul{padding-left:22px}
+    .document-contact{margin-top:24px}
+    @media(max-width:760px){.document-columns{grid-template-columns:1fr}.document-page{padding:36px 18px}}
   </style>
 </head>
 <body>
@@ -28,89 +23,57 @@
 
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Save Every Memory home">
-      <img class="brand-logo" src="assets/save-every-memory-logo.png" alt="Save Every Memory logo">
+      <img class="brand-logo" src="save-every-memory-logo.png" alt="Save Every Memory logo">
       <span><strong>Save Every Memory</strong><small>Preserve • Produce • Remember</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav">
       <a href="index.html">Home</a>
-      <a href="media-preservation.html">Media Preservation</a>
-      <a href="document-solutions.html" aria-current="page">Document Solutions</a>
-      <a href="video-events.html">Video & Events</a>
-      <a href="about.html">About & Our Work</a>
-      <a class="nav-cta" href="contact.html">Contact</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section class="document-hero">
-      <p class="eyebrow">For businesses and organizations</p>
-      <h1>Turn paper files into <em>searchable digital records.</em></h1>
-      <p>Your important records deserve more than a filing cabinet. Save Every Memory helps organizations scan, organize, and index paper documents so information is easier to find and manage.</p>
-      <p><strong>Locally owned and operated in Newark, Ohio. Personal attention. Quick turnaround times.</strong></p>
-      <a class="button primary" href="contact.html">Discuss a document project</a>
-    </section>
+  <main class="document-page">
+    <p class="eyebrow">For businesses and organizations</p>
+    <h1>Paper files into<br><em>searchable digital records.</em></h1>
+    <p>Your important records deserve more than a filing cabinet. Save Every Memory helps turn paper documents into organized digital archives that are easier to search, retrieve, and manage.</p>
 
-    <section class="document-content">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Document Management & Digital Records Solutions</p>
-          <h2>Make your records <em>easier to access.</em></h2>
-        </div>
-        <p class="section-note">From a one-time scanning project to ongoing digitization support, we’ll discuss your needs and define a practical project scope.</p>
-      </div>
+    <div class="document-columns">
+      <section class="document-card">
+        <h2>Document Management &amp; Digital Records</h2>
+        <p>From a one-time digitization project to ongoing records support, we can help your team move from paper-heavy storage to a more accessible digital workflow.</p>
+        <ul>
+          <li>High-volume document scanning and digitization</li>
+          <li>OCR processing to make supported scanned documents text-searchable</li>
+          <li>Organizing and indexing files into searchable digital databases</li>
+          <li>Digitizing contracts, invoices, case files, and historical records</li>
+          <li>One-time projects or ongoing scanning and indexing services</li>
+        </ul>
+        <p>Available by custom quote. Project scope, file organization, and delivery format are discussed before work begins.</p>
+        <a class="button primary" href="index.html#contact">Discuss a document project</a>
+      </section>
 
-      <div class="document-columns">
-        <article class="document-panel">
-          <h3>What we can help with</h3>
-          <ul>
-            <li>High-volume paper document scanning and digitization</li>
-            <li>OCR processing to make supported scanned documents text-searchable</li>
-            <li>Organizing and indexing files into searchable digital databases</li>
-            <li>Digitizing contracts, invoices, case files, historical records, and other documents</li>
-            <li>One-time projects or ongoing scanning and indexing services</li>
-          </ul>
-          <p>We’ll discuss the documents you have, how you want them organized, and the digital format that best fits your project.</p>
-        </article>
-
-        <aside class="document-panel">
-          <h3>Who we can help</h3>
-          <div class="document-audiences">
-            <span>Law firms</span>
-            <span>Businesses</span>
-            <span>Municipalities</span>
-            <span>Schools</span>
-            <span>Professional offices</span>
-            <span>Historical societies</span>
-          </div>
-          <p>Have a backlog of paper records or a continuing digitization need? Tell us what you’re working with and what you’d like to accomplish.</p>
-        </aside>
-      </div>
-
-      <p class="document-note">Document projects are priced by custom quote. Project scope, organization, and delivery format are discussed before work begins.</p>
-    </section>
+      <section class="document-card">
+        <h2>Who we can help</h2>
+        <ul>
+          <li>Law firms</li>
+          <li>Businesses and professional offices</li>
+          <li>Municipalities and schools</li>
+          <li>Historical societies</li>
+        </ul>
+        <p>Have a large backlog of paper records or a continuing digitization project? Let’s talk through what you have and what you need.</p>
+      </section>
+    </div>
 
     <section class="document-contact">
-      <p class="eyebrow">Start a conversation</p>
-      <h2>Let’s talk about your <em>document project.</em></h2>
-      <p>Save Every Memory is located at 33 West Main Street, Suite 108, Newark, Ohio 43055.</p>
-      <p><strong>Phone:</strong> <a href="tel:+17406299733">740-629-9733</a><br>
-      <strong>Email:</strong> <a href="mailto:Orders@saveeverymemory.com">Orders@saveeverymemory.com</a></p>
-      <a class="button primary" href="contact.html">Request information or a quote</a>
+      <h2>Local service in Newark, Ohio</h2>
+      <p>Save Every Memory is locally owned and operated, with personal attention and quick turnaround times.</p>
+      <p><strong>Address:</strong> 33 West Main Street, Suite 108, Newark, Ohio 43055</p>
+      <p><strong>Phone:</strong> <a href="tel:+17406299733">740-629-9733</a></p>
+      <p><strong>Email:</strong> <a href="mailto:Orders@saveeverymemory.com">Orders@saveeverymemory.com</a></p>
+      <p><a href="index.html">← Back to the Save Every Memory homepage</a></p>
     </section>
   </main>
-
-  <footer>
-    <a class="footer-brand" href="index.html">Save Every Memory</a>
-    <span>Preserving Yesterday. Producing Today. Capturing Tomorrow.</span>
-    <div class="footer-contact">
-      <span>33 West Main Street, Suite 108, Newark, Ohio 43055</span>
-      <a href="tel:+17406299733">740-629-9733</a>
-      <a href="mailto:Orders@saveeverymemory.com">Orders@saveeverymemory.com</a>
-    </div>
-    <a href="#top">Back to top ↑</a>
-    <small>© <span id="year"></span> Save Every Memory. All rights reserved.</small>
-  </footer>
 
   <script src="script.js"></script>
 </body>
